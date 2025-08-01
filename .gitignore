@@ -45,6 +45,11 @@ app.*.map.json
 /android/app/release
 
 
+
+
+
+# files added from gemini ai
+
 # Generated files and directories
 .dart_tool/
 .flutter-plugins-dependencies
@@ -87,3 +92,23 @@ ios/**/.symlinks/
 *.log
 *.DS_Store
 *.iml
+
+
+
+
+
+
+# files not add on github
+
+.metadata
+README.md
+analysis_options.yaml
+android/
+ios/
+linux/
+macos/
+pubspec.lock
+test/
+web/
+windows/
+

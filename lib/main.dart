@@ -5,7 +5,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_32_buttons.dart';
 // import 'Lec_33_assetImg.dart';
 // import 'Lec_34_Row_Col.dart';
-import 'Lec_35_InkWell.dart';
+// import 'Lec_35_InkWell.dart';
+import 'Lec_36_ScrollView.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +45,8 @@ class MyApp extends StatelessWidget {
       // home: Lec32(),
       // home: Lec33(),
       // home: Lec34(),
-      home: Lec35(),
+      // home: Lec35(),
+      home: Lec36(),
     );
   }
 }

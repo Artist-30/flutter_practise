@@ -7,7 +7,70 @@ import 'package:flutter/material.dart';
 // import 'Lec_34_Row_Col.dart';
 // import 'Lec_35_InkWell.dart';
 // import 'Lec_36_ScrollView.dart';
-import 'Lec_37_ListView.dart';
+// import 'Lec_37_ListView.dart';
+import 'Lec_40_Decoration.dart';
+
+/* Start
+// flutter code setUp
+
+// void main() {
+//   runApp(PractiseApp());
+// }
+//
+// class PractiseApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "Practise App",
+//       debugShowCheckedModeBanner: false,
+//       theme: ThemeData(
+//         primarySwatch: Colors.blue,
+//       ),
+//
+//       // home: Lec29(),
+//       // home: Lec30(),
+//       // home: Lec31(),
+//       // home: Lec32(),
+//       // home: Lec33(),
+//       // home: Lec34(),
+//       // home: Lec35(),
+//       // home: Lec36(),
+//       // home: Lec37(),
+//       home: DashBoardScreen(),
+//     );
+//   }
+// }
+//
+// class DashBoardScreen extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: Text("DashBoardScreen"),
+//         backgroundColor: Colors.blue,
+//       ),
+//       body: Center(
+//         child: Container(
+//           width: 200,
+//           height: 200,
+//           color: Colors.green,
+//           child: Center(
+//             child: Text(
+//               "Hello World!",
+//               style: TextStyle(
+//                 fontSize: 21,
+//                 fontWeight: FontWeight.w700,
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+End */
+
 
 void main() {
   runApp(const MyApp());
@@ -48,7 +111,8 @@ class MyApp extends StatelessWidget {
       // home: Lec34(),
       // home: Lec35(),
       // home: Lec36(),
-      home: Lec37(),
+      // home: Lec37(),
+      home: Lec40(),
     );
   }
 }

@@ -7,7 +7,7 @@ class Lec40 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Decoraion"),
+        title: Text("Decoration"),
       ),
       body: Center(
         child: Container(
@@ -50,4 +50,3 @@ class Lec40 extends StatelessWidget {
     );
   }
 }
-

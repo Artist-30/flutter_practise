@@ -9,7 +9,10 @@ import 'package:flutter/material.dart';
 // import 'Lec_36_ScrollView.dart';
 // import 'Lec_37_ListView.dart';
 // import 'Lec_40_Decoration.dart';
-import 'Lec_41_Expanded.dart';
+// import 'Lec_41_Expanded.dart';
+// import 'Lec_42_PaddingMargin.dart';
+// import 'Lec_43_ListTile.dart';
+import 'Lec_44_CircleAvatar.dart';
 
 
 /* Start
@@ -115,7 +118,10 @@ class MyApp extends StatelessWidget {
       // home: Lec36(),
       // home: Lec37(),
       // home: Lec40(),
-      home: Lec41(),
+      // home: Lec41(),
+      // home: Lec42(),
+      // home: Lec43(),
+      home: Lec44(),
     );
   }
 }

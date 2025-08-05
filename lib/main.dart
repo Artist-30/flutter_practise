@@ -14,7 +14,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_42_PaddingMargin.dart';
 // import 'Lec_43_ListTile.dart';
 // import 'Lec_44_CircleAvatar.dart';
-import 'Lec_45_CustomFont.dart';
+// import 'Lec_45_CustomFont.dart';
+import 'Lec_46_StylesThemes.dart';
 
 /* Start
 // flutter code setUp
@@ -108,6 +109,13 @@ class MyApp extends StatelessWidget {
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        textTheme: TextTheme(
+          headlineLarge: TextStyle(
+              fontSize: 21,
+              fontWeight: FontWeight.w700,
+              fontFamily: "Poppins",
+          ),
+        ),
       ),
       // home: Lec29(),
       // home: Lec30(),
@@ -123,7 +131,8 @@ class MyApp extends StatelessWidget {
       // home: Lec42(),
       // home: Lec43(),
       // home: Lec44(),
-      home: Lec45(),
+      // home: Lec45(),
+      home: Lec46(),
     );
   }
 }

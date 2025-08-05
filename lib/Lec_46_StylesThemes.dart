@@ -35,7 +35,7 @@ class Lec46 extends StatelessWidget {
           Center(
             child: Text(
               "Hello World! 4",
-              style: mTextStyle21(fw: FontWeight.normal),
+              style: mTextStyle21(fw: FontWeight.normal).copyWith(letterSpacing: 2),
             ),
           ),
         ],

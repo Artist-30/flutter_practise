@@ -7,7 +7,7 @@ class Lec42 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Decoration"),
+        title: Text("Padding Margin"),
       ),
       body: Container(
         margin: EdgeInsets.all(16),

@@ -8,7 +8,7 @@ class Lec44 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFE0E0E0),
-        title: Text("ListTile"),
+        title: Text("Circle Avatar"),
       ),
       body: Center(
         child: CircleAvatar(

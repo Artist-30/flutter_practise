@@ -8,7 +8,7 @@ class Lec46 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Custom Font"),
+        title: Text("Style Themes"),
       ),
       body: Column(
         children: [

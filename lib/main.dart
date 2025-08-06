@@ -16,7 +16,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_44_CircleAvatar.dart';
 // import 'Lec_45_CustomFont.dart';
 // import 'Lec_46_StylesThemes.dart';
-import 'Lec_47_Card.dart';
+// import 'Lec_47_Card.dart';
+import 'Lec_48_UserInput.dart';
 
 /* Start
 // flutter code setUp
@@ -134,7 +135,8 @@ class MyApp extends StatelessWidget {
       // home: Lec44(),
       // home: Lec45(),
       // home: Lec46(),
-      home: Lec47(),
+      // home: Lec47(),
+      home: Lec48(),
     );
   }
 }

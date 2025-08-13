@@ -101,7 +101,7 @@ class secondSection extends StatelessWidget {
                   subtitle: Text("Name ${index + 1}"),
                   trailing: IconButton(
                     onPressed: (){},
-                    icon: Icon(Icons.person),
+                    icon: Icon(Icons.delete),
                   ),
                 ),
                 decoration: BoxDecoration(

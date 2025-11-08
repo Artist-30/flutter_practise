@@ -14,3 +14,11 @@ TextStyle mTextStyle21({FontWeight fw = FontWeight.bold, Color c = Colors.red}) 
     fontWeight: fw,
   );
 }
+
+TextStyle mTextStyle31() {
+  return TextStyle(
+    fontSize: 18,
+    color: Colors.white,
+    letterSpacing: 0.75,
+  );
+}

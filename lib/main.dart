@@ -26,7 +26,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_54_CustomWidget.dart';
 // import 'Lec_55_Stack.dart';
 // import 'Lec_56_CustomWidget.dart';
-import 'Lec_57_WrapWidget.dart';
+// import 'Lec_57_WrapWidget.dart';
+import 'Lec_58_SizeBox.dart';
 
 /* Start
 // flutter code setUp
@@ -120,13 +121,13 @@ class MyApp extends StatelessWidget {
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+
         textTheme: TextTheme(
           headlineLarge: TextStyle(
             fontSize: 21,
             fontWeight: FontWeight.w700,
             fontFamily: "Poppins",
             letterSpacing: 1.5,
-
           ),
         ),
       ),
@@ -156,7 +157,8 @@ class MyApp extends StatelessWidget {
       // home: Lec54(),
       // home: Lec55(),
       // home: Lec56(),
-      home: Lec57(),
+      // home: Lec57(),
+      home: Lec58(),
     );
   }
 }

@@ -77,6 +77,9 @@ flutter:
     - family: Poppins
       fonts:
         - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+    - family: EduNSWACTCursive
+      fonts:
+        - asset: assets/fonts/EduNSWACTCursive/static/EduNSWACTCursive-Regular.ttf
 
   #   - family: Schyler
   #     fonts:

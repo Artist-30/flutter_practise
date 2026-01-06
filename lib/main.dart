@@ -28,7 +28,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_56_CustomWidget.dart';
 // import 'Lec_57_WrapWidget.dart';
 // import 'Lec_58_SizeBox.dart';
-import 'Lec_59_RichTextWidget.dart';
+// import 'Lec_59_RichTextWidget.dart';
+import 'Lec_60_IconWidget.dart';
 
 /* Start
 // flutter code setUp
@@ -160,7 +161,8 @@ class MyApp extends StatelessWidget {
       // home: Lec56(),
       // home: Lec57(),
       // home: Lec58(),
-      home: Lec59(),
+      // home: Lec59(),
+      home: Lec60(),
     );
   }
 }

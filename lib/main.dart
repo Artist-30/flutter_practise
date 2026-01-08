@@ -35,7 +35,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_63_StatefulAndStatelessWidget.dart';
 // import 'Lec_64_StatefulBasicCalc.dart';
 // import 'Lec_65_ConstraintBox.dart';
-import 'Lec_66_ScreenNavigator.dart';
+// import 'Lec_66_ScreenNavigator.dart';
+import 'Lec_67_SplashScreen.dart';
 
 /* Start
 // flutter code setUp
@@ -174,7 +175,8 @@ class MyApp extends StatelessWidget {
       // home: Lec63(),
       // home: Lec64(),
       // home: Lec65(),
-      home: Lec66(),
+      // home: Lec66(),
+      home: Lec67(),
     );
   }
 }

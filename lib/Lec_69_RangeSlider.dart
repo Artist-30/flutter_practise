@@ -27,7 +27,7 @@ class _Lec69State extends State<Lec69> {
             values: values,
             labels: labels,
             activeColor: Colors.red,
-            // inactiveColor: Colors.red.shade100,  
+            // inactiveColor: Colors.red.shade100,
             divisions: 20,
             min: 0,
             max: 100,

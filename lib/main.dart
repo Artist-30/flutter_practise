@@ -38,7 +38,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_66_ScreenNavigator.dart';
 // import 'Lec_67_SplashScreen.dart';
 // import 'Lec_68_DataPassingOnePageToAnother.dart';
-import 'Lec_69_RangeSlider.dart';
+// import 'Lec_69_RangeSlider.dart';
+import 'Lec_70_BMIApp.dart';
 
 /* Start
 // flutter code setUp
@@ -132,6 +133,10 @@ class MyApp extends StatelessWidget {
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        appBarTheme: AppBarTheme(
+          color: Colors.indigo,
+          foregroundColor: Colors.white,
+        ),
 
         textTheme: TextTheme(
           headlineLarge: TextStyle(
@@ -180,7 +185,8 @@ class MyApp extends StatelessWidget {
       // home: Lec66(),
       // home: Lec67(),
       // home: Lec68(),
-      home: Lec69(),
+      // home: Lec69(),
+      home: Lec70BMIApp(),
     );
   }
 }

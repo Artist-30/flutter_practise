@@ -23,7 +23,7 @@ class _Lec71State extends State<Lec71> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("FOO Animation"),
+        title: Text("FOO Animation Container"),
       ),
       body: Center(
         child: Column(

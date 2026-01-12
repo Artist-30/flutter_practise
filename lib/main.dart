@@ -41,7 +41,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_69_RangeSlider.dart';
 // import 'Lec_70_BMIApp.dart';
 // import 'Lec_71_AnimatedContainer.dart';
-import 'Lec_72_AnimatedOpacity.dart';
+// import 'Lec_72_AnimatedOpacity.dart';
+import 'Lec_73_AnimatedCrossFade.dart';
 
 /* Start
 // flutter code setUp
@@ -190,7 +191,8 @@ class MyApp extends StatelessWidget {
       // home: Lec69(),
       // home: Lec70BMIApp(),
       // home: Lec71(),
-      home: Lec72(),
+      // home: Lec72(),
+      home: Lec73(),
     );
   }
 }

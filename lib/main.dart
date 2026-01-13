@@ -45,7 +45,8 @@ import 'package:flutter/material.dart';
 // import 'Lec_73_AnimatedCrossFade.dart';
 // import 'Lec_74_AnimatedHeroWidget.dart';
 // import 'Lec_75_ListWheelScrollView.dart';
-import 'Lec_76_ClipRRect.dart';
+// import 'Lec_76_ClipRRect.dart';
+import 'Lec_77_Gradient.dart';
 
 /* Start
 // flutter code setUp
@@ -198,7 +199,8 @@ class MyApp extends StatelessWidget {
       // home: Lec73(),
       // home: Lec74(),
       // home: Lec75(),
-      home: Lec76(),
+      // home: Lec76(),
+      home: Lec77(),
     );
   }
 }

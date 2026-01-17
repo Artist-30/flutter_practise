@@ -61,7 +61,7 @@ class Lec37 extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: InkWell(
               onTap: (){
-                print("You clicked on " + arrNames[index]);
+                print("You clicked on ${arrNames[index]}");
               },
               child: Row(
                 children: [

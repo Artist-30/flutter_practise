@@ -110,7 +110,7 @@ class _Lec64State extends State<Lec64> {
               ),
             ),
             Text(
-              "$result",
+              result,
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,

@@ -9,7 +9,7 @@ class Lec41 extends StatelessWidget {
       appBar: AppBar(
         title: Text("Expanded Widget"),
       ),
-      body: Container(
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: Column(

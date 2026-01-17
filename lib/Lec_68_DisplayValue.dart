@@ -14,7 +14,7 @@ class Lec68_2 extends StatelessWidget {
 
   Lec68_2(
     this.userUsername,
-    this.userPassword
+    this.userPassword, {super.key}
   );
 
   @override

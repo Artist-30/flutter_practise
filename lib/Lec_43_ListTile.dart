@@ -20,7 +20,7 @@ class Lec43 extends StatelessWidget {
             subtitle: Text("Number ${index + 1}", style: TextStyle(fontSize: 14),),
             trailing: InkWell(
               onTap: (){
-                print("Tap on Icon add " + arrNames[index] + " ${index + 1}");
+                print("Tap on Icon add ${arrNames[index]} ${index + 1}");
               },
               child: Icon(Icons.add)
             ),

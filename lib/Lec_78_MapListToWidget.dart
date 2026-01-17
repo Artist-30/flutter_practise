@@ -66,6 +66,8 @@ class Lec78 extends StatelessWidget {
     },
   ];
 
+  Lec78({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

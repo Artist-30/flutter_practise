@@ -9,7 +9,7 @@ class Lec57 extends StatelessWidget {
       appBar: AppBar(
         title: Text("Wrap Widget"),
       ),
-      body: Container(
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: Wrap(

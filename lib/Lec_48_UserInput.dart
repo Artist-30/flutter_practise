@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class Lec48 extends StatelessWidget {
   Lec48({super.key});
@@ -15,7 +14,7 @@ class Lec48 extends StatelessWidget {
         backgroundColor: Color(0xFFB5B5B5),
       ),
       body: Center(
-        child: Container(
+        child: SizedBox(
           width: 400,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,

@@ -1,12 +1,12 @@
-import 'dart:ffi';
 
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class Lec75 extends StatelessWidget {
   // const Lec75({super.key});
 
   var arrIndex = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+  Lec75({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,6 +26,11 @@ class Lec75 extends StatelessWidget {
         children: arrIndex.map((val) => Padding(
           padding: const EdgeInsets.all(4.0),
           child: Container(
+            width: double.infinity,
+            decoration: BoxDecoration(
+              color: Colors.indigo,
+              borderRadius: BorderRadius.circular(25),
+            ),
             child: Center(
               child: Text(
                 '$val',
@@ -34,11 +39,6 @@ class Lec75 extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-            ),
-            width: double.infinity,
-            decoration: BoxDecoration(
-              color: Colors.indigo,
-              borderRadius: BorderRadius.circular(25),
             ),
           ),
         )).toList(),

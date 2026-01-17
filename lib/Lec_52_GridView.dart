@@ -24,7 +24,7 @@ class Lec52 extends StatelessWidget {
       appBar: AppBar(
         title: Text("GridView"),
       ),
-      body: Container(
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: Column(
@@ -41,25 +41,9 @@ class Lec52 extends StatelessWidget {
             ),
 
             GridView.extent(
-              children: [
-                Container(color: arrColors[0],),
-                Container(color: arrColors[1],),
-                Container(color: arrColors[2],),
-                Container(color: arrColors[3],),
-                Container(color: arrColors[4],),
-                Container(color: arrColors[5],),
-                Container(color: arrColors[6],),
-                Container(color: arrColors[7],),
-                Container(color: arrColors[8],),
-                Container(color: arrColors[9],),
-                Container(color: arrColors[10],),
-              ],
               maxCrossAxisExtent: 100,
               crossAxisSpacing: 10,
               mainAxisSpacing: 10,
-            ),
-
-            GridView.count(
               children: [
                 Container(color: arrColors[0],),
                 Container(color: arrColors[1],),
@@ -73,9 +57,25 @@ class Lec52 extends StatelessWidget {
                 Container(color: arrColors[9],),
                 Container(color: arrColors[10],),
               ],
+            ),
+
+            GridView.count(
               crossAxisCount: 4,
               crossAxisSpacing: 10,
               mainAxisSpacing: 10,
+              children: [
+                Container(color: arrColors[0],),
+                Container(color: arrColors[1],),
+                Container(color: arrColors[2],),
+                Container(color: arrColors[3],),
+                Container(color: arrColors[4],),
+                Container(color: arrColors[5],),
+                Container(color: arrColors[6],),
+                Container(color: arrColors[7],),
+                Container(color: arrColors[8],),
+                Container(color: arrColors[9],),
+                Container(color: arrColors[10],),
+              ],
             ),
           ],
         ),

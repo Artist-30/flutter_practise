@@ -101,7 +101,7 @@ class _Lec70BMIAppState extends State<Lec70BMIApp> {
 
                       var bmi = iWt / (tM*tM);
 
-                      var msg;
+                      String msg;
 
                       if(bmi < 18) {
                         msg = "You're UnderWeight!!!";
@@ -137,7 +137,7 @@ class _Lec70BMIAppState extends State<Lec70BMIApp> {
                 ),
                 SizedBox(height: 21,),
                 Text(
-                  "$result",
+                  result,
                   style: TextStyle(
                     fontSize: 19,
                     fontFamily: 'Poppins',

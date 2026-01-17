@@ -2,6 +2,8 @@ import 'package:demo_app/Lec_68_DisplayValue.dart';
 import 'package:flutter/material.dart';
 
 class Lec68 extends StatefulWidget {
+  const Lec68({super.key});
+
   @override
   State<Lec68> createState() => _Lec68State();
 }
@@ -50,7 +52,7 @@ class _Lec68State extends State<Lec68> {
                   ),
                 ),
                 SizedBox(height: 25,),
-                Text("$textNull", style: textStyle.copyWith(color: Colors.red),),
+                Text(textNull, style: textStyle.copyWith(color: Colors.red),),
                 // SizedBox(height: 25,),
                 ElevatedButton(
                   onPressed: (){

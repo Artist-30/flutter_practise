@@ -21,12 +21,12 @@ class Lec74 extends StatelessWidget {
           },
           child: Hero(
             tag: 'ironManImg',
+            transitionOnUserGestures: false,
             child: Image.asset(
               "assets/images/iron_man.png",
               height: 200,
               // width: 150,
             ),
-            transitionOnUserGestures: false,
           ),
         ),
       ),

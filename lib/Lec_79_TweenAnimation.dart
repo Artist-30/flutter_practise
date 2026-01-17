@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Lec79 extends StatefulWidget {
+  const Lec79({super.key});
+
   @override
   State<Lec79> createState() => _Lec79State();
 }

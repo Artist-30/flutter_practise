@@ -25,7 +25,7 @@ class _DateTime extends State<Lec49> {
             Container(
               margin: EdgeInsets.only(bottom: 10),
               child: Text(
-                "Current Date :\n${time}",
+                "Current Date :\n$time",
                 style: TextStyle(
                   fontSize: 21,
                   fontWeight: FontWeight.bold,

@@ -4,6 +4,8 @@ import 'package:demo_app/Lec_66_ScreenNavigator.dart';
 import 'package:flutter/material.dart';
 
 class Lec67 extends StatefulWidget {
+  const Lec67({super.key});
+
 
   @override
   State<Lec67> createState() => _Lec67State();

@@ -12,12 +12,14 @@ class Lec44 extends StatelessWidget {
       ),
       body: Center(
         child: CircleAvatar(
-          child: Container(
+          backgroundColor: Colors.green,
+          maxRadius: 60,
+          child: SizedBox(
             width: 60,
             height: 60,
             child: Column(
               children: [
-                Container(
+                SizedBox(
                   width: 33,
                   height: 33,
                   child: Image.asset(
@@ -36,8 +38,6 @@ class Lec44 extends StatelessWidget {
               ],
             ),
           ),
-          backgroundColor: Colors.green,
-          maxRadius: 60,
         ),
       ),
     );

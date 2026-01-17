@@ -15,7 +15,7 @@ class Lec56 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               width: 200,
               height: 50,
               child: RoundedBtn(
@@ -28,7 +28,7 @@ class Lec56 extends StatelessWidget {
               ),
             ),
             SizedBox(height: 22,),
-            Container(
+            SizedBox(
               width: 200,
               height: 50,
               child: RoundedBtn(

@@ -25,12 +25,12 @@ class _Lec72State extends State<Lec72> {
           children: [
             AnimatedOpacity(
               opacity: myOpacity,
+              duration: Duration(seconds: 2),
               child: Container(
                 width: 200,
                 height: 100,
                 color: Colors.indigo,
               ),
-              duration: Duration(seconds: 2),
             ),
             SizedBox(height: 21,),
             ElevatedButton(

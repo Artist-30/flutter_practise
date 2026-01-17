@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Lec53 extends StatelessWidget {
   const Lec53({super.key});
 
-  callback() {
+  void callback() {
     print("This is from callback function");
   }
 
@@ -15,8 +15,8 @@ class Lec53 extends StatelessWidget {
       ),
       body: Center(
         child: ElevatedButton(
-          child: Text("Click here!!!"),
           onPressed: callback,
+          child: Text("Click here!!!"),
         ),
       ),
     );

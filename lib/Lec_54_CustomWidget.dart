@@ -44,6 +44,8 @@ class Lec54 extends StatelessWidget {
 }
 
 class firstSection extends StatelessWidget {
+  const firstSection({super.key});
+
 
   @override
   Widget build(BuildContext context) {
@@ -74,7 +76,7 @@ class secondSection extends StatelessWidget {
 
   final List<String> arrNames;
 
-  secondSection({required this.arrNames});
+  const secondSection({super.key, required this.arrNames});
 
   @override
   Widget build(BuildContext context) {
@@ -88,6 +90,12 @@ class secondSection extends StatelessWidget {
             child: InkWell(
               onTap: (){},
               child: Container(
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    width: 2,
+                    color: Colors.black,
+                  ),
+                ),
                 child: ListTile(
                   leading: CircleAvatar(
                     // child: Image.asset(
@@ -102,12 +110,6 @@ class secondSection extends StatelessWidget {
                   trailing: IconButton(
                     onPressed: (){},
                     icon: Icon(Icons.delete),
-                  ),
-                ),
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    width: 2,
-                    color: Colors.black,
                   ),
                 ),
               ),
@@ -125,7 +127,7 @@ class thirdSection extends StatelessWidget {
 
   final List<String> arrNames;
 
-  thirdSection({required this.arrNames});
+  const thirdSection({super.key, required this.arrNames});
 
   @override
   Widget build(BuildContext context) {
@@ -161,7 +163,7 @@ class fourthSection extends StatelessWidget {
 
   final List<Color> arrColors;
 
-  fourthSection({required this.arrColors});
+  const fourthSection({super.key, required this.arrColors});
 
   @override
   Widget build(BuildContext context) {
